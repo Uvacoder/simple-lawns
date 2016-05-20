@@ -1,0 +1,100 @@
+html {
+  font-family: "Alegreya Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  font-size: 1.4rem;
+  line-height: 1.45;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0.7142857143rem 0;
+  line-height: 1.45;
+}
+
+h1 { font-size: 3.8416rem; }
+h2 { font-size: 2.744rem; }
+h3 { font-size: 1.96rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.7142857143rem; }
+h1 {
+  text-align: center;
+  line-height: 1;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+p[role="note"] {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+header[role="banner"] {
+  width: 100%;
+}
+
+nav[role="navigation"] {
+  width: 100%;
+  margin: 2.744rem auto;
+  text-align: center;
+}
+nav[role="navigation"] ul li {
+  display: inline-block;
+  border-left: 3px solid #aaa;
+  padding-left: 3px;
+}
+nav[role="navigation"] ul li:first-of-type {
+  border: none;
+  padding-left: 0;
+}
+nav[role="navigation"] ul li a, .acronym {
+  font-family: "Alegreya Sans SC";
+  text-transform: lowercase;
+}
+nav[role="navigation"] ul li a {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color:#60895C;
+  margin: 0.5102040816rem;
+}
+nav[role="navigation"] ul li a:hover {
+  color: #84DB7B;
+}
+
+main {
+  width: 100%;
+  max-width: 35rem;
+  margin: 1.96rem auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer {
+  margin: 1.96rem auto;
+}
+
+#Logo {
+  margin: 2.744rem auto 1rem auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+  main {
+    padding: 0;
+  }
+}
